@@ -1,5 +1,7 @@
 # InvestSmart: Personalized Commercial Real Estate Deal Discovery Engine
 
+App Demo can be found here: https://drive.google.com/file/d/19g9VlpRqpXvio-09uGBdSsLu6ZiC61J0/view?usp=sharing
+
 InvestSmart is an AI-driven tool designed to simplify commercial real estate investments by delivering personalized property recommendations with a focus on high return on investment (ROI). By integrating natural language processing, geospatial analysis, and machine learning, InvestSmart helps investors quickly discover well-priced commercial properties aligned with their preferences.
 
 ## Key Features
@@ -49,4 +51,6 @@ InvestSmart is an AI-driven tool designed to simplify commercial real estate inv
 - Expand geospatial analysis for neighborhood trend insights.
 
 Built for smarter investing, InvestSmart empowers commercial property investors with intelligent, data-driven insights.
+
+
 
