@@ -16,15 +16,29 @@ InvestSmart is an AI-driven tool designed to simplify commercial real estate inv
 - **Interactive Dashboard:**  
   Provides real-time visualizations of market trends, ROI estimates, pricing ranges, and key attributes to support informed decision-making.
 
+## How It Works
+
+1. Users input preferences (e.g., location, budget, size, transit access).
+2. The hybrid model finds top 5 listings using semantic similarity and spatial filtering.
+3. Deal scoring highlights properties with the highest estimated ROI.
+4. Results and trends are visualized through an interactive dashboard.
+
 ## Performance Metrics
 
 - Diversity score between 0.73 and 0.85, balancing relevance and variety.
 - Fast execution with recommendation times ranging from 0.02 to 0.06 seconds even on 1 million+ listings.
 
+## Data Sources
+
+- **Commercial Property Listings:** Dewey Data  
+- **Transit Location Data:** U.S. Department of Transportation Bureau of Transportation Statistics
+
 ## Technology Stack
 
-- Python, Sentence-BERT, Scikit-learn (Random Forest), GeoPandas, BallTree
-- Interactive dashboard with Streamlit UI
+- **Languages/Tools:** Python, Pandas, Scikit-learn, GeoPandas, Sentence-BERT
+- **Models:** Hybrid recommender (BERT + geospatial), Random Forest percentile prediction
+- **Spatial Search:** BallTree for efficient transit proximity filtering
+
 
 ## Future Enhancements
 
@@ -34,8 +48,5 @@ InvestSmart is an AI-driven tool designed to simplify commercial real estate inv
 - Enhance price and ROI prediction models.
 - Expand geospatial analysis for neighborhood trend insights.
 
-## How to Use
+Built for smarter investing, InvestSmart empowers commercial property investors with intelligent, data-driven insights.
 
-1. Input your preferences: location, budget, size, transit access.
-2. Get top 5 personalized property recommendations with deal scores.
-3. Explore visualizations to analyze market trends and investment potential.
